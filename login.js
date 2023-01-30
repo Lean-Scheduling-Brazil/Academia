@@ -11,7 +11,7 @@ document.querySelector("form").addEventListener("submit", function(event) {
    
     // Adicione aqui o código para verificar as credenciais do usuário
     if(username == "teste" && password=="1234" ) {
-        window.location.href = "http://localhost:5500/AulaExemplo.html";
+        window.location.href = "/AulaExemplo.html";
       //fs.writeFile("datetime.txt", dateString, function(err) {
       //    if (err) throw err;
       //    console.log("Data e hora atual salvas no arquivo");
