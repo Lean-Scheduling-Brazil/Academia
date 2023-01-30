@@ -1,0 +1,134 @@
+body{
+    font-family:Rajdhani,serif ;
+    background-color: #21354A;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+h1{
+    font-size: 20px;
+    color: #21354A;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 73.0%;
+    margin: 0 auto;
+    padding: 1px;
+    color:#21354A;
+    background-color: white;
+    
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    background-color: white;
+    margin: 0 auto;
+    width: 71.5%;
+}
+
+.tasks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 1px;
+    padding: 20px 20px 20px;
+    width: 70%;
+
+}
+.previous{
+    background-color: aliceblue;
+    
+    
+
+    }
+.titulo{
+    background-color: white;
+    
+
+}
+.next{
+    background-color: aliceblue;
+}
+button {
+  border-radius: 20px; /* arredonda os cantos */
+  background-color:#21354A;; /* cor de fundo padrão */
+  color: white; /* cor do texto */
+  padding: 15px 25px; /* espaçamento interno */
+}
+
+button:hover { /* estilo ao passar o mouse */
+  background-color: white;
+  color:#21354A; /* muda a cor de fundo */
+  cursor: pointer; /* mostra o cursor de mão */
+}
+
+.info{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1px;
+    width: 70%;
+    padding: 0 20px;
+    background-color: white;
+}
+.logo{
+    margin: 1em 1em 0em;
+    cursor:pointer;
+    
+}
+.user-info{
+    margin:1em 2em 0em;
+    cursor:default;
+}
+
+@media (min-width:1400px) {
+    .container {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        padding:0 1em;
+    }
+    .user-info {
+        background-color: white;
+    }
+    .video{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: center;
+        padding:1em;
+        background-color:white;
+        margin: 0 auto;
+    }
+    .tasks{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+        background-color: white;
+        margin: 0 auto;
+        margin-top:1px;
+        padding:1em;
+    
+    }
+    .info{
+        display: flex;
+        margin: 0 auto;
+        margin-top: 1px;
+        width: 50%;
+        padding: 1em;
+        background-color: white;
+    }
+}
